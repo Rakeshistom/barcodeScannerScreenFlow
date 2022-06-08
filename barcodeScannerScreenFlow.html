@@ -1,0 +1,12 @@
+<template>
+    <div class="slds-align_absolute-center slds-m-vertical_large">
+        <lightning-button
+            variant="brand"
+            class="slds-var-m-left_x-small slds-hide_large my-brand"
+            icon-name="utility:scan"
+            label={buttonLabel}
+            title="Open a camera view and look for a barcode to scan"
+            onclick={initBarcodeScanner}>
+        </lightning-button>
+    </div>
+</template>
